@@ -326,9 +326,9 @@ img {
     .img-my{
         width: 350px;
         height: 550px;
-        bottom: 37.5%;
+        #bottom: 37.5%;
 
-        left: -1rem;
+        #left: -1rem;
     }
 
     .margin-query {
@@ -346,7 +346,7 @@ img {
         left: 0%;
         width: 300px;
         height: 550px;
-        bottom: 8.5%;
+        #bottom: 8.5%;
         left: 12%;
     }
     .dots-1, .dots-2, .dots-3, .dots-4 {
