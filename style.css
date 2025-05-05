@@ -324,8 +324,8 @@ img {
         margin-top: 30px;
     }
     .img-my{
-        width: 390px;
-        height: 390px;
+        width: 400px;
+        height: 400px;
         #bottom: 37.5%;
 
         #left: -1rem;
@@ -344,8 +344,8 @@ img {
     .img-modify-section-2 {
         position: relative;
         left: 0%;
-        width: 390px;
-        height: 390px;
+        width: 400px;
+        height: 400px;
         #bottom: 8.5%;
         left: 12%;
     }
