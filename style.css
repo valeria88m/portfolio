@@ -294,8 +294,8 @@ img {
 }
 .img-modify-section-2{
     position: relative;
-    left:10%;
-    bottom: 13.5%;
+    #left:10%;
+    #bottom: 13.5%;
 }
 .my-dots-svg path{
     fill: #fcfcfc;
