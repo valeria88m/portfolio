@@ -1,0 +1,65 @@
+ 
+
+<body class="contact-body ">
+  <nav class="navbar navbar-expand-lg my-nav nav-new-2">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#" data-page="index.html" onclick="loadPage(event)"><img src="assets/img/logo_v-removebg-preview.png" width="40px" alt="logo del sito di valeria"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link  fw-bolder" href="#" data-page="index.html" onclick="loadPage(event)">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="#" data-page="curriculum.html" onclick="loadPage(event)">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder active" href="#" data-page="contatti.html" onclick="loadPage(event)">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="dynamic-content ">
+        <main class="  ">
+            <div class="container">
+           
+            
+            <div class="text-center" id="thank-you-message"">
+                <h3>Grazie per avermi contattato!</h3>
+            </div>
+            <div class="container contact-form">
+                <div class="contact-image">
+                    <img src="assets/img/helloimg.png" alt="Immagine di emoticon che saluta">
+                </div>
+                <form action="https://formspree.io/f/manonynb" class="text-center" method="POST">
+                    <h3 class="mb-5">Mettiamoci in contatto</h3>
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="form-group mb-3">
+                          <input type="text" name="name" class="form-control" placeholder="Nome e Cognome" required aria-required="true">
+                        </div>
+                        <div class="form-group mb-3">
+                          <input type="email" name="email" class="form-control" placeholder="Email" required aria-required="true">
+                        </div>
+                        <div class="form-group mb-3">
+                          <input type="text" name="phone" class="form-control" placeholder="Numero di telefono">
+                        </div> 
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <div class="form-group mb-3">
+                          <textarea type="text" name="message" class="form-control" placeholder="Messaggio"  required aria-required="true"></textarea>
+                        </div>
+                        <div class="form-group mb-3">
+                          <input type="submit" class=" cta-gradient-new" value="Invia">
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  
+        </div>
+        </main>
+    </div>
+</body>
